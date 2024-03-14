@@ -1,0 +1,27 @@
+{
+  "header": {
+    "button": "agendar horario"
+  },
+  "about":{
+    "title": "a barbearia",
+    "paragraph1": "a Marques Jr e uma ...",
+    "paragraph2": "Para que esse ambiente ...",
+    "name": "Wevert Junior",
+    "role": "Barbeiro e Proprietario"
+  },
+  "team":{
+    "ana": "cabelereira e barbeira",
+    "dom": "barbeiro",
+    "lucas": "barbeiro",
+    "michael": "barbeiro"
+  },
+  "servicos":{
+    "title":"Nossos Serviços",
+    "corte":{
+      "classico":"Corte Classico",
+      "maquina":"Corte a maquina"
+    }
+  }
+
+
+}
