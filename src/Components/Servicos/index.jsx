@@ -1,6 +1,6 @@
 import React from "react";
 import { servicesData } from "../../assets/servicesdata";
-import { Button } from "@nextui-org/react";
+import { Button, Link } from "@nextui-org/react";
 
 function Services() {
   const halfIndex = Math.ceil(servicesData.length / 2);
@@ -35,7 +35,14 @@ function Services() {
         </div>
       </div>
       <div className="flex justify-center p-32">
-        <Button size="lg" radius="none" className="bg-[#293E3B] text-white">
+        <Button
+          href="https://barbeariamarquesjr.buk.pt/"
+          as={Link}
+          target="_blank"
+          size="lg"
+          radius="none"
+          className="bg-[#293E3B] text-white"
+        >
           AGENDAR HORARIO
         </Button>
       </div>

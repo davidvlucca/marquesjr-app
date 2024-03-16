@@ -2,7 +2,7 @@ import React from "react";
 import { Carousel } from "@material-tailwind/react";
 import Banner from "../../../public/banner.png";
 import Logo from "../../../public/logo.png";
-import { Button } from "@nextui-org/react";
+import { Button, Link } from "@nextui-org/react";
 
 function CarouselComponent() {
   return (
@@ -33,6 +33,9 @@ function CarouselComponent() {
             <img src={Logo} className="h-auto max-w-md mt-10 mb-32" />
             <div className="flex justify-center gap-2">
               <Button
+                href="https://barbeariamarquesjr.buk.pt/"
+                as={Link}
+                target="_blank"
                 size="lg"
                 radius="none"
                 className="bg-brown-500 text-white"
