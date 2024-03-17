@@ -1,6 +1,7 @@
 import React, { useState, useRef } from "react";
+// @ts-ignore
 import { PlayIcon, PauseIcon } from "@heroicons/react/solid";
-import videoSrc from "./path/to/your/video.mp4"; // Import the video file
+import videoSrc from "../../../public/marquesjr_video.mp4"; // Import the video file
 
 const VideoPlayer = () => {
   const [isPlaying, setIsPlaying] = useState(false);
@@ -26,13 +27,16 @@ const VideoPlayer = () => {
         loop
       />
       <div
-        className="absolute inset-0 flex items-center justify-center bg-black bg-opacity-50 cursor-pointer"
+        className="absolute inset-0 flex items-center justify-center bg-black bg-opacity-20 cursor-pointer"
         onClick={togglePlay}
       >
-        {isPlaying ? (
-          <PauseIcon className="w-12 h-12 text-white" />
-        ) : (
-          <PlayIcon className="w-12 h-12 text-white" />
+        {!isPlaying && ( // Show play icon only when video is not playing
+          <div
+            className="absolute inset-0 flex items-center justify-center bg-black bg-opacity-50 cursor-pointer"
+            onClick={togglePlay}
+          >
+            <PlayIcon className="w-12 h-12 text-white" />
+          </div>
         )}
       </div>
     </div>
