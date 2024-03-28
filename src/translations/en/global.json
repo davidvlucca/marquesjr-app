@@ -1,5 +1,40 @@
 {
   "header":{
-    "button": "book an appointment"
-  }
+    "btn": "make a reservation"
+  },
+  "about":{
+    "title": "",
+    "desc": "",
+    "role": ""
+  },
+  "team":{
+    "role_1": "",
+    "role_2": "",
+    "role_3": ""
+  },
+  "services":{
+    "title": "",
+    "service_1": "",
+    "desc_1": "",
+    "service_2": "",
+    "desc_2": "",
+    "service_3": "",
+    "desc_3": "",
+    "service_4": "",
+    "desc_4": "",
+    "service_5": "",
+    "desc_5": "",
+    "service_6": "",
+    "desc_6": "",
+    "service_7": "",
+    "desc_7": "",
+    "service_8": "",
+    "desc_8": "",
+    "btn": "make a reservation"
+  },
+  "cta":{
+    "title":"",
+    "desc":""
+  },
+  "footer": ""
 }

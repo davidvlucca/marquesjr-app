@@ -1,27 +1,40 @@
 {
   "header": {
-    "button": "agendar horario"
+    "btn": "agendar horario"
   },
-  "about":{
-    "title": "a barbearia",
-    "paragraph1": "a Marques Jr e uma ...",
-    "paragraph2": "Para que esse ambiente ...",
-    "name": "Wevert Junior",
-    "role": "Barbeiro e Proprietario"
+  "about": {
+    "title": "",
+    "desc": "",
+    "role": ""
   },
-  "team":{
-    "ana": "cabelereira e barbeira",
-    "dom": "barbeiro",
-    "lucas": "barbeiro",
-    "michael": "barbeiro"
+  "team": {
+    "role_1": "",
+    "role_2": "",
+    "role_3": ""
   },
-  "servicos":{
-    "title":"Nossos Serviços",
-    "corte":{
-      "classico":"Corte Classico",
-      "maquina":"Corte a maquina"
-    }
-  }
-
-
+  "services": {
+    "title": "",
+    "service_1": "",
+    "desc_1": "",
+    "service_2": "",
+    "desc_2": "",
+    "service_3": "",
+    "desc_3": "",
+    "service_4": "",
+    "desc_4": "",
+    "service_5": "",
+    "desc_5": "",
+    "service_6": "",
+    "desc_6": "",
+    "service_7": "",
+    "desc_7": "",
+    "service_8": "",
+    "desc_8": "",
+    "btn": "agendar horario"
+  },
+  "cta": {
+    "title": "",
+    "desc": ""
+  },
+  "footer": ""
 }

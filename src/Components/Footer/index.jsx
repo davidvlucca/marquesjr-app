@@ -25,7 +25,7 @@ function FooterComponent() {
           </a>
         </div>
         <p className=" text-[20px]">
-          +351 935067730 • RUA NOVA DA ALFARROBEIRA, 6 • LOJAS 14 E 17 •
+          +351 935067730 • RUA NOVA DA ALFARROBEIRA, 6 • LOJAS 14 & 17 •
           2750-452 • CASCAIS • PORTUGAL
         </p>
       </div>
