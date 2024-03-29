@@ -5,7 +5,6 @@ import Logo from "../../../public/logo.png";
 import { Button, Link } from "@nextui-org/react";
 import { useTranslation } from "react-i18next";
 
-
 function CarouselComponent() {
   const { t, i18n } = useTranslation("global");
   const handleChangeLanguage = (lang) => {
@@ -50,9 +49,9 @@ function CarouselComponent() {
                   target="_blank"
                   size="lg"
                   radius="none"
-                  className="bg-brown-500 text-white"
+                  className="bg-brown-500 text-white uppercase"
                 >
-                  AGENDAR HORARIO
+                  {t("header.btn")}
                 </Button>
               </div>
             </div>
