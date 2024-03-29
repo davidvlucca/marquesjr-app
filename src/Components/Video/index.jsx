@@ -1,7 +1,7 @@
 import React, { useState, useRef } from "react";
 // @ts-ignore
 import { PlayIcon, PauseIcon } from "@heroicons/react/solid";
-import videoSrc from "../../../public/video_marquesjr.mp4"; // Import the video file
+import videoSrc from "../../../public/marquesjr_video.mp4"; // Import the video file
 
 const VideoPlayer = () => {
   const [isPlaying, setIsPlaying] = useState(false);
