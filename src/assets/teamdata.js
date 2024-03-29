@@ -17,41 +17,43 @@ export const responsive = {
   },
 };
 
+import { useTranslation } from "react-i18next";
+
 export const teamData = [
   {
     id: 1,
     name: "Ana Kelly Mota",
-    role: "Cabeleireira e barbeira",
+    role: "team.role_1",
     image: "/public/ana.png",
   },
   {
     id: 2,
     name: "DOM CARVALHO",
-    role: "Barbeiro",
+    role: "team.role_2",
     image: "/public/dom.png",
   },
   {
     id: 3,
     name: "Lucas Alencar",
-    role: "Barbeiro",
+    role: "team.role_2",
     image: "/public/lucas.png",
   },
   {
     id: 4,
     name: "Michael Rodrigues",
-    role: "Barbeiro",
+    role: "team.role_2",
     image: "/public/michael.png",
   },
   {
     id: 5,
     name: "Tiago Loiola",
-    role: "Barbeiro",
+    role: "team.role_2",
     image: "/public/tiago.png",
   },
   {
     id: 6,
     name: "ROSE RIBEIRO",
-    role: "GESTÃO",
+    role: "team.role_3",
     image: "/public/rose.png",
   },
 ];

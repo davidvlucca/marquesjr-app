@@ -8,9 +8,9 @@ function About() {
     <div className="flex bg-[#111D1D] h-[1000px] w-[99vw] ">
       <div className="flex-1 grid place-content-center bg-cover bg-aboutLogo px-[80px] py-[100px]">
         <div className="space-y-24 tracking-tighter	">
-          <h1 className="text-7xl font-light ">{t("about.title")}</h1>
+          <h1 className="xl:text-6xl font-light ">{t("about.title")}</h1>
           <div className="space-y-10">
-            <p className="text-[#a28857]	text-4xl font-medium">
+            <p className="text-[#a28857]	xl:text-4xl font-medium">
               {t("about.desc1")}
             </p>
 
