@@ -16,9 +16,11 @@ i18next.init({
   lng: "pt",
   resources: {
     en: {
+      global:
       global_en,
     },
     pt: {
+      global:
       global_pt,
     },
   },

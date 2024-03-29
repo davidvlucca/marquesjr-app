@@ -3,38 +3,38 @@
     "btn": "agendar horario"
   },
   "about": {
-    "title": "",
-    "desc": "",
-    "role": ""
+    "title": "A BARBEARIA",
+    "desc1": "A Marques Jr é uma barbearia localizada no coração de Cascais que conta com um ambiente descontraído e acolhedor, sendo o local perfeito para você relaxar enquanto cuida de si.",
+    "desc2": "Para que esse ambiente possa proporcionar cuidado pessoal, em nossa equipa contamos com profissionais de alta qualidade que estão preparados para te receber e prestar um excelente serviço.",
+    "role": "Barbeiro e Proprietário"
   },
   "team": {
-    "role_1": "",
-    "role_2": "",
-    "role_3": ""
+    "role_1": "CABELEIREIRA E BARBEIRA",
+    "role_2": "BARBEIRO",
+    "role_3": "GESTÃO"
   },
   "services": {
-    "title": "",
-    "service_1": "",
-    "desc_1": "",
-    "service_2": "",
-    "desc_2": "",
-    "service_3": "",
-    "desc_3": "",
-    "service_4": "",
-    "desc_4": "",
-    "service_5": "",
-    "desc_5": "",
-    "service_6": "",
-    "desc_6": "",
-    "service_7": "",
-    "desc_7": "",
-    "service_8": "",
-    "desc_8": "",
+    "title": "NOSSOS SERVIÇOS",
+    "service_1": "CORTE CLASSICO",
+    "desc_1": "A execução deste corte requer habilidade e sensibilidade, fazendo uso de diversas técnicas. Destinado aos homens contemporâneos.",
+    "service_2": "CORTE À MAQUINA",
+    "desc_2": "Com precisão e modernidade, nossos cortes feitos à máquina oferecem praticidade e estilo contemporâneo para homens que valorizam o cuidado com sua aparência.",
+    "service_3": "BARBATERAPIA",
+    "desc_3": "Descubra o prazer da barbaterapia, uma experiência única que combina técnica e relaxamento. Cuidado preciso, feito sob medida para homens modernos que valorizam a excelência no cuidado pessoal",
+    "service_4": "BARBA NORMAL",
+    "desc_4": "Desfrute da arte do cuidado com a barba, uma experiência singular que une técnica e bem-estar. Tratamento especializado, adaptado para homens modernos que buscam excelência na manutenção pessoal.",
+    "service_5": "CORTE+BARBOTERAPIA",
+    "desc_5": "Explore a experiência singular da barboterapia, onde o cuidado personalizado se transforma em momentos de relaxamento. Uma proposta dedicada àqueles que valorizam o bem-estar e buscam a excelência em seu estilo.",
+    "service_6": "SOBRANCELHA À NAVALHA",
+    "desc_6": "Descubra a arte da sobrancelha à navalha, uma técnica refinada com moldagem personalizada, proporcionando uma expressão única para quem busca perfeição no detalhe.",
+    "service_7": "SOBRANCELHA À PINÇA",
+    "desc_7": "Aprimore seu visual com a arte da sobrancelha à pinça. Precisão e delicadeza se unem para criar uma moldagem única, destacando a beleza natural e realçando sua expressão pessoal.",
+    "service_8": "RETOQUE/ACABAMENTO",
+    "desc_8": "Retoque personalizado pós-corte, adaptando linhas conforme a preferência do cliente. Do ‘pezinho’ às laterais, garantimos um visual impecável, ideal para quem cortou recentemente.",
     "btn": "agendar horario"
   },
   "cta": {
-    "title": "",
-    "desc": ""
-  },
-  "footer": ""
+    "title": "agendar online",
+    "desc": "Agende sua marcação online e desfrute de praticidade e tranquilidade. Garanta seu horário sem sair de casa, proporcionando uma experiência conveniente e sem preocupações"
+  }
 }

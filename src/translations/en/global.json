@@ -1,40 +1,40 @@
 {
-  "header":{
-    "btn": "make a reservation"
+  "header": {
+    "btn": "schedule appointment"
   },
-  "about":{
-    "title": "",
-    "desc": "",
-    "role": ""
+  "about": {
+    "title": "THE BARBERSHOP",
+    "desc1": "Marques Jr is a barbershop located in the heart of Cascais, offering a relaxed and welcoming environment, making it the perfect place for you to unwind while taking care of yourself.",
+    "desc2": "In order to provide personal care in this environment, our team consists of high-quality professionals who are ready to welcome you and provide excellent service.",
+    "role": "Barber and Owner"
   },
-  "team":{
-    "role_1": "",
-    "role_2": "",
-    "role_3": ""
+  "team": {
+    "role_1": "HAIRDRESSER AND BARBER",
+    "role_2": "BARBER",
+    "role_3": "MANAGEMENT"
   },
-  "services":{
-    "title": "",
-    "service_1": "",
-    "desc_1": "",
-    "service_2": "",
-    "desc_2": "",
-    "service_3": "",
-    "desc_3": "",
-    "service_4": "",
-    "desc_4": "",
-    "service_5": "",
-    "desc_5": "",
-    "service_6": "",
-    "desc_6": "",
-    "service_7": "",
-    "desc_7": "",
-    "service_8": "",
-    "desc_8": "",
-    "btn": "make a reservation"
+  "services": {
+    "title": "OUR SERVICES",
+    "service_1": "CLASSIC CUT",
+    "desc_1": "Executing this cut requires skill and sensitivity, using various techniques. Aimed at contemporary men.",
+    "service_2": "CLIPPER CUT",
+    "desc_2": "With precision and modernity, our clipper cuts offer convenience and contemporary style for men who value their appearance.",
+    "service_3": "BARBER THERAPY",
+    "desc_3": "Discover the pleasure of barber therapy, a unique experience that combines technique and relaxation. Precise care, tailored for modern men who value excellence in personal care.",
+    "service_4": "REGULAR SHAVE",
+    "desc_4": "Enjoy the art of beard care, a unique experience that combines technique and well-being. Specialized treatment, adapted for modern men seeking excellence in personal maintenance.",
+    "service_5": "CUT + BARBER THERAPY",
+    "desc_5": "Explore the unique experience of barber therapy, where personalized care turns into moments of relaxation. A proposal dedicated to those who value well-being and seek excellence in their style.",
+    "service_6": "EYEBROW SHAPING WITH RAZOR",
+    "desc_6": "Discover the art of eyebrow shaping with a razor, a refined technique with personalized molding, providing a unique expression for those seeking perfection in detail.",
+    "service_7": "EYEBROW SHAPING WITH TWEEZERS",
+    "desc_7": "Enhance your look with the art of eyebrow shaping with tweezers. Precision and delicacy come together to create a unique molding, highlighting natural beauty and enhancing your personal expression.",
+    "service_8": "TOUCH UP / FINISHING",
+    "desc_8": "Custom touch-up post-cut, adapting lines according to the client's preference. From the 'fade' to the sides, we ensure an impeccable look, ideal for those who have recently had a haircut.",
+    "btn": "schedule appointment"
   },
-  "cta":{
-    "title":"",
-    "desc":""
-  },
-  "footer": ""
+  "cta": {
+    "title": "schedule online",
+    "desc": "Schedule your appointment online and enjoy convenience and peace of mind. Secure your time slot without leaving home, providing a convenient and worry-free experience."
+  }
 }
