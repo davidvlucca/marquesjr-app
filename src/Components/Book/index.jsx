@@ -1,17 +1,18 @@
 import React from "react";
+import { useTranslation } from "react-i18next";
 
 function BookOnline() {
+  const { t } = useTranslation("global");
+
   return (
-    <div className=" bg-cover bg-bookBackground h-[700px]">
+    <div className=" bg-cover bg-bookBackground ">
       <a href="https://barbeariamarquesjr.buk.pt/" target="_blank">
-        <div className=" px-[470px] py-[150px]">
-          <h2 className=" text-[#111D1D] font-light text-[100px] text-center mb-[100px]">
-            BOOK ONLINE
+        <div className=" px-80 py-36">
+          <h2 className=" uppercase text-[#111D1D] text-6xl text-center pb-24">
+            {t("cta.title")}
           </h2>
           <p className=" text-[#111D1D] text-[30px] text-center">
-            Agende sua marcação online e desfrute de praticidade e
-            tranquilidade. Garanta seu horário sem sair de casa, proporcionando
-            uma experiência conveniente e sem preocupações
+            {t("cta.desc")}
           </p>
         </div>
       </a>
