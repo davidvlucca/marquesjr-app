@@ -17,7 +17,6 @@ export const responsive = {
   },
 };
 
-import { useTranslation } from "react-i18next";
 
 export const teamData = [
   {

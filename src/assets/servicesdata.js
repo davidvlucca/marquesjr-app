@@ -1,50 +1,42 @@
 export const servicesData = [
   {
     id: 1,
-    type: "Corte Classico",
-    description:
-      "A execução deste corte requer habilidade e sensibilidade, fazendo uso de diversas técnicas. Destinado aos homens contemporâneos.",
+    type: "services.service_1",
+    description: "services.desc_1",
   },
   {
     id: 2,
-    type: "CORTE À MAQUINA",
-    description:
-      "Com precisão e modernidade, nossos cortes feitos à máquina oferecem praticidade e estilo contemporâneo para homens que valorizam o cuidado com sua aparência.",
+    type: "services.service_2",
+    description: "services.desc_2",
   },
   {
     id: 3,
-    type: "BARBATERAPIA",
-    description:
-      "Descubra o prazer da barbaterapia, uma experiência única que combina técnica e relaxamento. Cuidado preciso, feito sob medida para homens modernos que valorizam a excelência no cuidado pessoal",
+    type: "services.service_3",
+    description: "services.desc_3",
   },
   {
     id: 4,
-    type: "BARBA NORMAL",
-    description:
-      "Desfrute da arte do cuidado com a barba, uma experiência singular que une técnica e bem-estar. Tratamento especializado, adaptado para homens modernos que buscam excelência na manutenção pessoal.",
+    type: "services.service_4",
+    description: "services.desc_4",
   },
   {
-    id: 1,
-    type: "CORTE+BARBOTERAPIA",
-    description:
-      "Explore a experiência singular da barboterapia, onde o cuidado personalizado se transforma em momentos de relaxamento. Uma proposta dedicada àqueles que valorizam o bem-estar e buscam a excelência em seu estilo.",
+    id: 5,
+    type: "services.service_5",
+    description: "services.desc_5",
   },
   {
-    id: 2,
-    type: "SOBRANCELHA À NAVALHA",
-    description:
-      "Descubra a arte da sobrancelha à navalha, uma técnica refinada com moldagem personalizada, proporcionando uma expressão única para quem busca perfeição no detalhe.",
+    id: 6,
+    type: "services.service_6",
+    description: "services.desc_6",
   },
   {
-    id: 3,
-    type: "SOBRANCELHA À PINÇA",
-    description:
-      "Aprimore seu visual com a arte da sobrancelha à pinça. Precisão e delicadeza se unem para criar uma moldagem única, destacando a beleza natural e realçando sua expressão pessoal.",
+    id: 7,
+    type: "services.service_7",
+    description: "services.desc_7",
   },
   {
-    id: 4,
-    type: "RETOQUE/ACABAMENTO",
-    description:
-      "Retoque personalizado pós-corte, adaptando linhas conforme a preferência do cliente. Do ‘pezinho’ às laterais, garantimos um visual impecável, ideal para quem cortou recentemente.",
+    id: 8,
+    type: "services.service_8",
+    description: "services.desc_8",
   },
 ];
