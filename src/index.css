@@ -5,7 +5,9 @@
 
 @font-face {
   font-family: "Roundkey";
-  src: local("Roundkey"), url("./fonts/Roundkey Regular.otf") format("opentype");
+  src:
+    local("Roundkey"),
+    url("./fonts/Roundkey Regular.otf") format("opentype");
   font-weight: normal;
 }
 

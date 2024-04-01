@@ -20,7 +20,7 @@ function TeamSlider() {
           <div key={item.id} className="relative">
             <img src={item.image} className="block" alt={item.name} />
             <div className="absolute bottom-3 left-3">
-              <h3 className="uppercase text-[#978D7D] font-normal text-3xl">
+              <h3 className="text-3xl font-normal uppercase text-[#978D7D]">
                 {item.name}
               </h3>
               <p className="uppercase text-[#978D7D]">{t(item.role)}</p>

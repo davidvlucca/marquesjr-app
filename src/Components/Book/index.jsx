@@ -5,13 +5,13 @@ function BookOnline() {
   const { t } = useTranslation("global");
 
   return (
-    <div className=" bg-cover bg-bookBackground ">
+    <div className=" bg-bookBackground bg-cover ">
       <a href="https://barbeariamarquesjr.buk.pt/" target="_blank">
         <div className=" px-80 py-36">
-          <h2 className=" uppercase text-[#111D1D] text-6xl text-center pb-24">
+          <h2 className=" pb-24 text-center text-6xl uppercase text-[#111D1D]">
             {t("cta.title")}
           </h2>
-          <p className=" text-[#111D1D] text-[30px] text-center">
+          <p className=" text-center text-[30px] text-[#111D1D]">
             {t("cta.desc")}
           </p>
         </div>

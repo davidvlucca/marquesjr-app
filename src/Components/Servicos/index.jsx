@@ -10,8 +10,8 @@ function Services() {
   const { t } = useTranslation("global");
 
   return (
-    <div className="tracking-tighter p-10 bg-[#978D7D] text-[#293E3B]">
-      <h1 className="text-center text-8xl font-light py-40">
+    <div className="bg-[#978D7D] p-10 tracking-tighter text-[#293E3B]">
+      <h1 className="py-40 text-center text-8xl font-light">
         {t("services.title")}
       </h1>
 
@@ -22,7 +22,7 @@ function Services() {
               key={index}
               className={index !== firstHalf.length - 1 ? "mb-14" : ""}
             >
-              <h3 className="uppercase font-medium text-4xl">{t(item.type)}</h3>
+              <h3 className="text-4xl font-medium uppercase">{t(item.type)}</h3>
               <p className=" text-2xl font-normal">{t(item.description)}</p>
             </div>
           ))}
@@ -33,7 +33,7 @@ function Services() {
               key={index}
               className={index !== secondHalf.length - 1 ? "mb-14" : ""}
             >
-              <h3 className="uppercase font-medium text-4xl">{t(item.type)}</h3>
+              <h3 className="text-4xl font-medium uppercase">{t(item.type)}</h3>
               <p className="text-2xl font-normal">{t(item.description)}</p>
             </div>
           ))}
@@ -46,7 +46,7 @@ function Services() {
           target="_blank"
           size="lg"
           radius="none"
-          className="bg-[#293E3B] text-white uppercase"
+          className="bg-[#293E3B] uppercase text-white"
         >
           {t("services.btn")}
         </Button>

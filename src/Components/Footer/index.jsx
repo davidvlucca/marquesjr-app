@@ -5,10 +5,10 @@ import WhatsappIcon from "../../../public/whatsapp.png";
 
 function FooterComponent() {
   return (
-    <div className="bg-footerBackground h-[450px]">
-      <div className="text-center flex flex-col items-center justify-center p-[70px]">
+    <div className="h-[450px] bg-footerBackground">
+      <div className="flex flex-col items-center justify-center p-[70px] text-center">
         <img src={Logo} alt="" className="" />
-        <div className=" flex p-[30px] gap-x-[20px]">
+        <div className=" flex gap-x-[20px] p-[30px]">
           <a
             href="https://www.instagram.com/"
             target="_blank"
@@ -17,11 +17,11 @@ function FooterComponent() {
             <img
               src={InstagramIcon}
               alt="Instagram"
-              className="w-full h-auto"
+              className="h-auto w-full"
             />
           </a>
           <a href="your-link-here" target="_blank" rel="noopener noreferrer">
-            <img src={WhatsappIcon} alt="Whatsapp" className="w-full h-auto" />
+            <img src={WhatsappIcon} alt="Whatsapp" className="h-auto w-full" />
           </a>
         </div>
         <p className=" text-[20px]">

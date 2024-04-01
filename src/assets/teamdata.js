@@ -17,7 +17,6 @@ export const responsive = {
   },
 };
 
-
 export const teamData = [
   {
     id: 1,

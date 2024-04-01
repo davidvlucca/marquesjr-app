@@ -16,12 +16,10 @@ i18next.init({
   lng: "pt",
   resources: {
     en: {
-      global:
-      global_en,
+      global: global_en,
     },
     pt: {
-      global:
-      global_pt,
+      global: global_pt,
     },
   },
 });
@@ -35,5 +33,5 @@ ReactDOM.createRoot(document.getElementById("root")).render(
         </I18nextProvider>
       </ThemeProvider>
     </Router>
-  </React.StrictMode>
+  </React.StrictMode>,
 );

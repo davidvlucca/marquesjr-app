@@ -1,0 +1,10 @@
+@media screen and (min-width: 1024px) {
+  .responsive-button {
+    width: 20%; /* Adjust button width for smaller screens */
+  }
+}
+@media screen and (min-width: 3000px) {
+  .responsive-button {
+    width: 90%; /* Adjust button width for smaller screens */
+  }
+}

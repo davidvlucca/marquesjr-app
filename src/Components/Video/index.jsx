@@ -27,15 +27,15 @@ const VideoPlayer = () => {
         loop
       />
       <div
-        className="absolute inset-0 flex items-center justify-center bg-black bg-opacity-20 cursor-pointer"
+        className="absolute inset-0 flex cursor-pointer items-center justify-center bg-black bg-opacity-20"
         onClick={togglePlay}
       >
         {!isPlaying && ( // Show play icon only when video is not playing
           <div
-            className="absolute inset-0 flex items-center justify-center bg-black bg-opacity-50 cursor-pointer"
+            className="absolute inset-0 flex cursor-pointer items-center justify-center bg-black bg-opacity-50"
             onClick={togglePlay}
           >
-            <PlayIcon className="w-12 h-12 text-white" />
+            <PlayIcon className="h-12 w-12 text-white" />
           </div>
         )}
       </div>

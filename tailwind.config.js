@@ -17,7 +17,7 @@ module.exports = withMT({
         aboutLogo: "url('././public/about_logo.png')",
         bookBackground: "url('././public/bookonline.png')",
         mapBackground: "url('././public/map_placeholder.png')",
-        footerBackground: "url('././public/footerbg.png')"
+        footerBackground: "url('././public/footerbg.png')",
       },
       colors: {
         brown: {
@@ -35,5 +35,5 @@ module.exports = withMT({
     },
   },
   darkMode: "class",
-  plugins: [nextui({ addCommonColors: true })],
+  plugins: [nextui({ addCommonColors: true })]["prettier-plugin-tailwindcss"],
 });

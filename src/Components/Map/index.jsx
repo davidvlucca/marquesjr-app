@@ -1,10 +1,7 @@
-import React from 'react'
+import React from "react";
 
 function MapComponent() {
-  return (
-    <div className=" bg-cover bg-mapBackground h-[1000px]">
-    </div>
-  )
+  return <div className=" h-[1000px] bg-mapBackground bg-cover"></div>;
 }
 
-export default MapComponent
+export default MapComponent;

@@ -1,26 +1,53 @@
-import React from "react";
+import { useState } from "react";
 import { Carousel } from "@material-tailwind/react";
 import Banner from "../../../public/banner.png";
 import Logo from "../../../public/logo.png";
-import { Button, Link } from "@nextui-org/react";
+import { Link } from "@nextui-org/react";
+import { Button } from "@nextui-org/button";
 import { useTranslation } from "react-i18next";
+import "../../styles.css";
 
 function CarouselComponent() {
-  const { t, i18n } = useTranslation("global");
+  const [selectedEN, setSelectedEN] = useState(false);
+  const [selectedPT, setSelectedPT] = useState(true);
+
   const handleChangeLanguage = (lang) => {
+    if (lang === "en") {
+      setSelectedEN(true);
+      setSelectedPT(false);
+    } else if (lang === "pt") {
+      setSelectedPT(true);
+      setSelectedEN(false);
+    }
     i18n.changeLanguage(lang);
   };
+
+  const { t, i18n } = useTranslation("global");
   return (
     <div className="relative">
-      <div className="absolute top-0 left-0  z-10">
-        <div className="w-[1000px] bg-red-600 sm:bg-yellow-500 md:bg-blue-500 max-w-[90%] mx-auto mt-10">
-          <button onClick={() => handleChangeLanguage("en")}>EN</button>
-          <button onClick={() => handleChangeLanguage("pt")}>PT</button>
+      <div className="absolute left-0 top-0  z-10">
+        <div className="mx-auto mt-10 w-[1000px] max-w-[90%]">
+          <button
+            onClick={() => handleChangeLanguage("en")}
+            className={`p-2 lg:text-lg xl:text-xl ${
+              selectedEN ? "text-white line-through" : "text-[#A28857]"
+            }`}
+          >
+            EN
+          </button>
+          <button
+            onClick={() => handleChangeLanguage("pt")}
+            className={` p-2 xl:text-xl ${
+              selectedPT ? "text-white line-through" : "text-[#A28857]"
+            }`}
+          >
+            PT
+          </button>
         </div>
       </div>
       <Carousel
         className=" h-auto"
-        autoplay={true}
+        //autoplay={true}
         loop={true}
         transition={{ duration: 1 }}
         navigation={({ setActiveIndex, activeIndex, length }) => (
@@ -38,18 +65,30 @@ function CarouselComponent() {
         )}
       >
         <div className="">
-          <img src={Banner} alt="image 1" className="h-10px w-auto blur " />
-          <div className="absolute inset-0 grid h-full w-full place-items-center bg-black/25">
-            <div className=" text-center ">
-              <img src={Logo} className="h-auto max-w-md mt-10 mb-32" />
-              <div className="flex justify-center gap-2">
+          <img src={Banner} alt="image 1" className=" w-auto blur " />
+          <div className="absolute inset-0 grid h-auto w-full place-items-center bg-black/25">
+            <div className="text-center">
+              <img
+                src={Logo}
+                className="mt-10 h-auto max-w-[6rem] md:max-w-[12rem] lg:mb-12 lg:max-w-sm xl:mb-28 xl:max-w-md"
+              />
+              <div className="flex justify-center">
+                <button
+                  onClick={() =>
+                    window.open("https://barbeariamarquesjr.buk.pt/", "_blank")
+                  }
+                  className=" rounded bg-blue-500 px-4 py-2 font-bold uppercase text-white hover:bg-blue-700"
+                >
+                  {t("header.btn")}
+                </button>
                 <Button
                   href="https://barbeariamarquesjr.buk.pt/"
                   as={Link}
                   target="_blank"
-                  size="lg"
                   radius="none"
-                  className="bg-brown-500 text-white uppercase"
+                  size="lg"
+                  className="bg-brown-500 uppercase text-white md:max-w-[12rem] lg:max-w-sm xl:max-w-md"
+                  hidden={{ sm: true }}
                 >
                   {t("header.btn")}
                 </Button>
@@ -60,7 +99,7 @@ function CarouselComponent() {
         <img
           src="https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExbnYydm15MmZqd2U3d3V4cGd3ZTgxNXJxeDR6MW9vMTJwcmhucXN2aiZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/3oGNDNk8wFcWLXrPYQ/giphy.gif"
           alt="image 2"
-          className="h-full max-w-fit blur/75"
+          className="blur/75 h-full max-w-fit"
         />
         <img src={Banner} alt="image 3" className="h-10px w-auto blur" />
       </Carousel>
