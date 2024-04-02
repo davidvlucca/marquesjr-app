@@ -67,31 +67,20 @@ function CarouselComponent() {
         <div className="">
           <img src={Banner} alt="image 1" className=" w-auto blur " />
           <div className="absolute inset-0 grid h-auto w-full place-items-center bg-black/25">
-            <div className="text-center">
+            <div className="text-center sm:space-y-6 md:space-y-8 lg:space-y-10 xl:space-y-16 2xl:space-y-20">
               <img
                 src={Logo}
-                className="mt-10 h-auto max-w-[6rem] md:max-w-[12rem] lg:mb-12 lg:max-w-sm xl:mb-28 xl:max-w-md"
+                className=" h-auto max-w-[14rem] md:max-w-[16rem] lg:max-w-sm xl:max-w-md"
               />
               <div className="flex justify-center">
                 <button
                   onClick={() =>
                     window.open("https://barbeariamarquesjr.buk.pt/", "_blank")
                   }
-                  className=" rounded bg-blue-500 px-4 py-2 font-bold uppercase text-white hover:bg-blue-700"
+                  className=" lg:text-md rounded bg-brown-500 px-4 py-2 font-bold uppercase text-white transition-colors duration-300 hover:bg-[#293E3B] sm:text-sm md:text-sm lg:px-5 lg:py-3 xl:px-6 xl:py-3 xl:text-xl 2xl:px-6 2xl:py-3 2xl:text-xl"
                 >
                   {t("header.btn")}
                 </button>
-                <Button
-                  href="https://barbeariamarquesjr.buk.pt/"
-                  as={Link}
-                  target="_blank"
-                  radius="none"
-                  size="lg"
-                  className="bg-brown-500 uppercase text-white md:max-w-[12rem] lg:max-w-sm xl:max-w-md"
-                  hidden={{ sm: true }}
-                >
-                  {t("header.btn")}
-                </Button>
               </div>
             </div>
           </div>

@@ -4,6 +4,7 @@ const withMT = require("@material-tailwind/react/utils/withMT");
 
 module.exports = withMT({
   content: [
+    "node_modules/flowbite-react/lib/esm/**/*.js",
     "./index.html",
     "./src/**/*.{js,ts,jsx,tsx}",
     "./node_modules/@nextui-org/theme/dist/**/*.{js,ts,jsx,tsx}",
@@ -35,5 +36,9 @@ module.exports = withMT({
     },
   },
   darkMode: "class",
-  plugins: [nextui({ addCommonColors: true })]["prettier-plugin-tailwindcss"],
+  plugins: [
+    require("flowbite/plugin"),
+    [nextui({ addCommonColors: true })],
+    ["prettier-plugin-tailwindcss"],
+  ],
 });
