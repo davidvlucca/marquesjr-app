@@ -13,6 +13,9 @@ module.exports = withMT({
   ],
   theme: {
     extend: {
+      fontFamily: {
+        roundkey: ["Roundkey"],
+      },
       screens: {
         xs: { max: "640px" }, // everything under 768px
         mL: { min: "425px", max: "639px" }, // mobile L

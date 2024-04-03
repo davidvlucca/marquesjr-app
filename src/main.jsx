@@ -3,7 +3,6 @@ import ReactDOM from "react-dom/client";
 import App from "./App.jsx";
 import "./index.css";
 import { BrowserRouter as Router } from "react-router-dom";
-import { NextUIProvider } from "@nextui-org/react";
 import { ThemeProvider } from "@material-tailwind/react";
 
 import global_en from "./translations/en/global.json";

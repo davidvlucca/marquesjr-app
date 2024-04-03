@@ -2,8 +2,7 @@ import { useState } from "react";
 import { Carousel } from "@material-tailwind/react";
 import Banner from "../../../public/banner.png";
 import Logo from "../../../public/logo.png";
-import { Link, VisuallyHidden } from "@nextui-org/react";
-import { Button } from "@nextui-org/button";
+import { VisuallyHidden } from "@nextui-org/react";
 import { useTranslation } from "react-i18next";
 import "../../styles.css";
 
@@ -49,7 +48,7 @@ function CarouselComponent() {
         prevArrow={VisuallyHidden}
         nextArrow={VisuallyHidden}
         className=" h-auto"
-        //autoplay={true}
+        autoplay={true}
         loop={true}
         transition={{ duration: 1 }}
         navigation={({ setActiveIndex, activeIndex, length }) => (

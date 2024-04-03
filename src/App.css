@@ -3,8 +3,3 @@
   margin: 0 auto;
 }
 
-@media screen and (max-width: 1024px) {
-  .responsive-button {
-    width: 50%; /* Adjust button width for smaller screens */
-  }
-}
