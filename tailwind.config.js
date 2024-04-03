@@ -13,6 +13,12 @@ module.exports = withMT({
   ],
   theme: {
     extend: {
+      screens: {
+        xs: { max: "640px" }, // everything under 768px
+        mL: { min: "425px", max: "639px" }, // mobile L
+        mM: { min: "375px", max: "424px" }, // mobile M
+        mS: { min: "320px", max: "374px" }, // mobile S
+      },
       backgroundImage: {
         aboutBackground: "url('././public/about_background.png')",
         aboutLogo: "url('././public/about_logo.png')",
@@ -37,7 +43,6 @@ module.exports = withMT({
   },
   darkMode: "class",
   plugins: [
-    require("flowbite/plugin"),
     [nextui({ addCommonColors: true })],
     ["prettier-plugin-tailwindcss"],
   ],

@@ -6,24 +6,24 @@ function About() {
   const { t } = useTranslation("global");
 
   return (
-    <div className="flex h-[90vh] w-[99vw] flex-col bg-[#111D1D] sm:h-auto sm:w-auto md:h-auto md:w-auto lg:h-[70vh] lg:flex-row xl:h-[90vh] xl:flex-row 2xl:flex-row">
-      <div className="grid flex-1 place-content-center bg-aboutLogo bg-cover px-12 py-52 sm:py-12 md:py-16 lg:px-[40px] xl:px-[80px]">
-        <div className="tracking-tighter sm:space-y-8 md:space-y-8 lg:space-y-10 xl:space-y-12 2xl:space-y-16">
-          <h1 className="font-light sm:text-4xl md:text-5xl lg:text-4xl xl:text-5xl 2xl:text-6xl">
+    <div className="xs:h-auto flex h-[90vh] w-[99vw] flex-col bg-[#111D1D] sm:h-auto sm:w-auto md:h-auto md:w-auto lg:h-[550px] lg:flex-row xl:h-[650px] xl:flex-row 2xl:h-[800px] 2xl:flex-row">
+      <div className="xs:py-16 grid flex-1 place-content-center bg-aboutLogo bg-cover px-12 py-52 sm:py-12 md:py-16 lg:px-10 xl:px-[80px]">
+        <div className=" xs:space-y-10 tracking-tighter sm:space-y-8 md:space-y-8 lg:space-y-10 xl:space-y-12 2xl:space-y-16">
+          <h1 className="mS:text-4xl mM:text-[46px] xs:text-5xl font-light sm:text-4xl md:text-5xl lg:text-4xl xl:text-5xl 2xl:text-6xl">
             {t("about.title")}
           </h1>
-          <div className="sm:space-y-6 md:space-y-8 lg:space-y-6 xl:space-y-8 2xl:space-y-8">
-            <p className="font-medium text-[#a28857] sm:text-2xl md:text-3xl lg:text-xl xl:text-2xl 2xl:text-3xl">
+          <div className="xs:space-y-4 sm:space-y-6 md:space-y-8 lg:space-y-6 xl:space-y-8 2xl:space-y-8">
+            <p className="xs:text-2xl font-medium text-[#a28857] sm:text-2xl md:text-3xl lg:text-xl xl:text-2xl 2xl:text-3xl">
               {t("about.desc1")}
             </p>
-            <p className="font-medium text-[#a28857] sm:text-2xl md:text-3xl lg:text-xl xl:text-2xl 2xl:text-3xl">
+            <p className="xs:text-2xl font-medium text-[#a28857] sm:text-2xl md:text-3xl lg:text-xl xl:text-2xl 2xl:text-3xl">
               {t("about.desc2")}
             </p>
             <div className="text-[#a28857]">
-              <p className="font-medium sm:text-xl md:text-2xl lg:text-lg xl:text-xl 2xl:text-2xl">
+              <p className="xs:text-xl font-medium sm:text-xl md:text-2xl lg:text-lg xl:text-xl 2xl:text-2xl">
                 Wevert Junior
               </p>
-              <p className="font-normal sm:text-xl md:text-2xl lg:text-lg xl:text-xl 2xl:text-2xl">
+              <p className="xs:text-xl font-normal sm:text-xl md:text-2xl lg:text-lg xl:text-xl 2xl:text-2xl">
                 {t("about.role")}
               </p>
             </div>
