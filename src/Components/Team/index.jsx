@@ -19,11 +19,13 @@ function TeamSlider() {
         {teamData.map((item) => (
           <div key={item.id} className="relative">
             <img src={item.image} className="block" alt={item.name} />
-            <div className="absolute bottom-3 left-3">
-              <h3 className="text-3xl font-normal uppercase text-[#978D7D]">
+            <div className="absolute bottom-5 left-5 2xl:bottom-5 2xl:left-5">
+              <h3 className="font-normal uppercase text-[#978D7D] mL:text-4xl xs:text-2xl md:text-3xl lg:text-2xl xl:text-2xl 2xl:text-3xl">
                 {item.name}
               </h3>
-              <p className="uppercase text-[#978D7D]">{t(item.role)}</p>
+              <p className="uppercase text-[#978D7D] xl:text-base">
+                {t(item.role)}
+              </p>
             </div>
           </div>
         ))}

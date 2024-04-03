@@ -10,11 +10,11 @@ function Services() {
 
   return (
     <div className="bg-[#978D7D] tracking-tighter text-[#293E3B]">
-      <h1 className="mS:py-10 mM:py-10 mL:text-4xl mL:py-12 xs:py-16 xs:text-5xl text-center font-light md:py-20 md:text-6xl lg:py-24 lg:text-7xl xl:py-28 xl:text-7xl 2xl:py-32 2xl:text-7xl">
+      <h1 className="mS:py-10 mM:py-10 mS:text-3xl mL:text-4xl mL:py-12 xs:py-16 xs:text-5xl text-center font-light md:py-20 md:text-6xl lg:py-24 lg:text-7xl xl:py-28 xl:text-7xl 2xl:py-32 2xl:text-7xl">
         {t("services.title")}
       </h1>
 
-      <div className="mS:mx-6 mM:mx-12 mL:mx-16 md:mx-34 xs:mx-28 xs:justify-center sm md:justify-center md:px-28 lg:flex lg:space-x-32 lg:px-24 xl:flex xl:px-28 2xl:flex 2xl:px-32 ">
+      <div className="mS:mx-6 mM:mx-12 mL:mx-16 md:mx-34 xs:mx-28 xs:justify-center sm md:justify-center md:px-28 lg:flex lg:space-x-32 lg:px-28 xl:flex xl:space-x-48 xl:px-40 2xl:flex 2xl:space-x-52 2xl:px-60 ">
         <div className="xs:pb-10 text-center md:pb-16 lg:w-1/2 lg:text-left xl:w-1/2 xl:text-left 2xl:w-1/2 2xl:text-left">
           {firstHalf.map((item, index) => (
             <div
