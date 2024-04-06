@@ -1,6 +1,6 @@
 import React from "react";
 import { useTranslation } from "react-i18next";
-import AboutBG from "../../../public/about_background.png";
+import AboutBG from "../../../public/marquesjr_background.png";
 
 function About() {
   const { t } = useTranslation("global");
