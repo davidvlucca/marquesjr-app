@@ -6,9 +6,10 @@
 @layer base {
   @font-face {
     font-family: "Roundkey";
+    font-weight: 400;
     src:
-      local("Roundkey"),
-      url("/public/fonts/Roundkey\ Regular.otf") format("opentype");
+      url("/fonts/Roundkey-Regular.woff") format("woff"),
+      url("/fonts/Roundkey-Regular.woff2") format("woff2");
   }
 }
 

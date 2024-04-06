@@ -18,7 +18,7 @@ const VideoPlayer = () => {
   };
 
   return (
-    <div className="relative">
+    <div className="font-roundkey relative">
       <video
         ref={videoRef}
         src={videoSrc}

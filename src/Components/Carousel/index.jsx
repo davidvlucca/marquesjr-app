@@ -23,12 +23,12 @@ function CarouselComponent() {
 
   const { t, i18n } = useTranslation("global");
   return (
-    <div className="relative">
+    <div className="font-roundkey relative">
       <div className="absolute left-0 top-0 z-10">
         <div className="xs:mt-2 xs:max-w-[98%] mx-auto w-[1000px] sm:mt-5 sm:max-w-[95%] md:max-w-[9%5] lg:mt-10 lg:max-w-[90%] xl:max-w-[90%] 2xl:max-w-[90%]">
           <button
             onClick={() => handleChangeLanguage("en")}
-            className={`p-2 lg:text-lg xl:text-xl ${
+            className={`p-2 lg:text-lg xl:text-2xl ${
               selectedEN ? "text-white line-through" : "text-[#A28857]"
             }`}
           >
@@ -36,7 +36,7 @@ function CarouselComponent() {
           </button>
           <button
             onClick={() => handleChangeLanguage("pt")}
-            className={` p-2 xl:text-xl ${
+            className={` p-2 lg:text-lg xl:text-2xl ${
               selectedPT ? "text-white line-through" : "text-[#A28857]"
             }`}
           >
@@ -48,7 +48,7 @@ function CarouselComponent() {
         prevArrow={VisuallyHidden}
         nextArrow={VisuallyHidden}
         className=" h-auto"
-        autoplay={true}
+        //autoplay={true}
         loop={true}
         transition={{ duration: 1 }}
         navigation={({ setActiveIndex, activeIndex, length }) => (
@@ -71,14 +71,14 @@ function CarouselComponent() {
             <div className="text-center sm:space-y-6 md:space-y-8 lg:space-y-10 xl:space-y-16 2xl:space-y-20">
               <img
                 src={Logo}
-                className=" mS:max-w-[12rem] h-auto max-w-[14rem] md:max-w-[16rem] lg:max-w-sm xl:max-w-md"
+                className=" mS:max-w-[12rem] h-auto max-w-[14rem] md:max-w-[16rem] lg:max-w-sm xl:max-w-md 2xl:max-w-lg"
               />
               <div className="xs:hidden flex justify-center">
                 <button
                   onClick={() =>
                     window.open("https://barbeariamarquesjr.buk.pt/", "_blank")
                   }
-                  className=" lg:text-md rounded bg-brown-500 px-4 py-2 font-bold uppercase text-white transition-colors duration-300 hover:bg-[#293E3B] sm:text-sm md:text-sm lg:px-5 lg:py-3 xl:px-6 xl:py-3 xl:text-xl 2xl:px-6 2xl:py-3 2xl:text-xl"
+                  className=" lg:text-md bg-brown-500 px-4 py-2 font-bold uppercase text-white transition-colors duration-300 hover:bg-[#293E3B] sm:text-sm md:text-sm lg:px-5 lg:py-3 xl:px-6 xl:py-3 xl:text-xl 2xl:px-6 2xl:py-3 2xl:text-2xl"
                 >
                   {t("header.btn")}
                 </button>
