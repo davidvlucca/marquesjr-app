@@ -14,13 +14,13 @@ function TeamSlider() {
         draggable={true}
         infinite={true}
         partialVisible={true}
-        autoPlaySpeed={5000}
+        autoPlaySpeed={2000}
       >
         {teamData.map((item) => (
           <div key={item.id} className="relative">
             <img src={item.image} className="block" alt={item.name} />
             <div className="absolute bottom-5 left-5 2xl:bottom-5 2xl:left-5">
-              <h3 className="mL:text-4xl xs:text-2xl font-normal uppercase text-[#978D7D] md:text-3xl lg:text-2xl xl:text-2xl 2xl:text-4xl">
+              <h3 className="mL:text-4xl xs:text-2xl font-normal uppercase text-[#978D7D] md:text-3xl lg:text-3xl xl:text-2xl 2xl:text-4xl">
                 {item.name}
               </h3>
               <p className="uppercase text-[#978D7D] xl:text-base 2xl:text-xl">

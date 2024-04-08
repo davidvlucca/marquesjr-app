@@ -1,6 +1,7 @@
 import { useState } from "react";
 import { Carousel } from "@material-tailwind/react";
 import Banner from "../../../public/banner.png";
+import Banner2 from "../../../public/banner_2.png";
 import Logo from "../../../public/logo.png";
 import { VisuallyHidden } from "@nextui-org/react";
 import { useTranslation } from "react-i18next";
@@ -23,9 +24,9 @@ function CarouselComponent() {
 
   const { t, i18n } = useTranslation("global");
   return (
-    <div className="font-roundkey relative">
+    <div className="relative font-roundkey">
       <div className="absolute left-0 top-0 z-10">
-        <div className="xs:mt-2 xs:max-w-[98%] mx-auto w-[1000px] sm:mt-5 sm:max-w-[95%] md:max-w-[9%5] lg:mt-10 lg:max-w-[90%] xl:max-w-[90%] 2xl:max-w-[90%]">
+        <div className="mx-auto w-[1000px] sm:mt-5 sm:max-w-[95%] md:max-w-[9%5] lg:mt-10 lg:max-w-[90%] xl:max-w-[90%] 2xl:max-w-[90%] xs:mt-2 xs:max-w-[98%]">
           <button
             onClick={() => handleChangeLanguage("en")}
             className={`p-2 lg:text-lg xl:text-2xl ${
@@ -48,7 +49,7 @@ function CarouselComponent() {
         prevArrow={VisuallyHidden}
         nextArrow={VisuallyHidden}
         className=" h-auto"
-        //autoplay={true}
+        autoplay={true}
         loop={true}
         transition={{ duration: 1 }}
         navigation={({ setActiveIndex, activeIndex, length }) => (
@@ -71,14 +72,14 @@ function CarouselComponent() {
             <div className="text-center sm:space-y-6 md:space-y-8 lg:space-y-10 xl:space-y-16 2xl:space-y-20">
               <img
                 src={Logo}
-                className=" mS:max-w-[12rem] h-auto max-w-[14rem] md:max-w-[16rem] lg:max-w-sm xl:max-w-md 2xl:max-w-lg"
+                className=" h-auto max-w-[14rem] md:max-w-[18rem] lg:max-w-sm xl:max-w-md 2xl:max-w-lg mL:max-w-40 mM:max-w-32 mS:max-w-24"
               />
-              <div className="xs:hidden flex justify-center">
+              <div className="flex justify-center xs:hidden">
                 <button
                   onClick={() =>
                     window.open("https://barbeariamarquesjr.buk.pt/", "_blank")
                   }
-                  className=" lg:text-md bg-brown-500 px-4 py-2 font-bold uppercase text-white transition-colors duration-300 hover:bg-[#293E3B] sm:text-sm md:text-sm lg:px-5 lg:py-3 xl:px-6 xl:py-3 xl:text-xl 2xl:px-6 2xl:py-3 2xl:text-2xl"
+                  className="lg:text-md bg-transparent px-4 py-2 font-bold uppercase text-brown-500 outline outline-brown-500 transition-colors duration-300 hover:bg-brown-500 hover:text-white sm:text-sm md:hidden md:px-7 md:py-5 md:text-2xl lg:block lg:px-5 lg:py-3 xl:block xl:px-6 xl:py-3 xl:text-xl 2xl:block 2xl:px-6 2xl:py-3 2xl:text-2xl xs:hidden"
                 >
                   {t("header.btn")}
                 </button>
@@ -86,12 +87,7 @@ function CarouselComponent() {
             </div>
           </div>
         </div>
-        <img
-          src="https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExbnYydm15MmZqd2U3d3V4cGd3ZTgxNXJxeDR6MW9vMTJwcmhucXN2aiZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/3oGNDNk8wFcWLXrPYQ/giphy.gif"
-          alt="image 2"
-          className="blur/75 h-full max-w-fit"
-        />
-        <img src={Banner} alt="image 3" className="h-10px w-auto blur" />
+        <img src={Banner2} alt="image 2" className="w-auto" />
       </Carousel>
     </div>
   );

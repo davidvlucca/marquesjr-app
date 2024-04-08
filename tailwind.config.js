@@ -14,27 +14,15 @@ module.exports = withMT({
   theme: {
     extend: {
       fontFamily: {
-        roundkey: "'Roundkey', 'sans-serif'",
+        roundkey: ["Roundkey", "sans-serif"],
       },
       fontWeight: {
-        thin: 100,
-        "thin-italic": 100,
-        extralight: 200,
-        "extralight-italic": 200,
-        light: 300,
-        "light-italic": 300,
-        normal: 400,
-        italic: 400,
-        medium: 500,
-        "medium-italic": 500,
-        semibold: 600,
-        "semibold-italic": 600,
+        // Define font weights based on your font files
         bold: 700,
-        "bold-italic": 700,
-        extrabold: 800,
-        "extrabold-italic": 800,
-        black: 900,
-        "black-italic": 900,
+        extralight: 200,
+        light: 300,
+        medium: 500,
+        thin: 100,
       },
 
       screens: {
