@@ -25,11 +25,11 @@ function CarouselComponent() {
   const { t, i18n } = useTranslation("global");
   return (
     <div className="relative font-roundkey">
-      <div className="absolute left-0 top-0 z-10">
-        <div className="mx-auto w-[1000px] sm:mt-5 sm:max-w-[95%] md:max-w-[9%5] lg:mt-10 lg:max-w-[90%] xl:max-w-[90%] 2xl:max-w-[90%] xs:mt-2 xs:max-w-[98%]">
+      <div className="absolute left-10 top-0 z-10">
+        <div className="mx-auto flex sm:mt-5 sm:max-w-[95%] md:mt-9 md:max-w-[95%] lg:mt-10 lg:max-w-[90%] xl:max-w-[90%] 2xl:max-w-[90%] xs:mt-7 xs:max-w-[98%]">
           <button
             onClick={() => handleChangeLanguage("en")}
-            className={`p-2 lg:text-lg xl:text-2xl ${
+            className={`p-2 lg:text-xl xl:text-2xl ${
               selectedEN ? "text-white line-through" : "text-[#A28857]"
             }`}
           >
@@ -37,7 +37,7 @@ function CarouselComponent() {
           </button>
           <button
             onClick={() => handleChangeLanguage("pt")}
-            className={` p-2 lg:text-lg xl:text-2xl ${
+            className={` p-2 lg:text-xl xl:text-2xl ${
               selectedPT ? "text-white line-through" : "text-[#A28857]"
             }`}
           >
