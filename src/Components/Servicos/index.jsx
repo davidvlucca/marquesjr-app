@@ -1,4 +1,3 @@
-import React from "react";
 import { servicesData } from "../../assets/servicesdata";
 import { useTranslation } from "react-i18next";
 

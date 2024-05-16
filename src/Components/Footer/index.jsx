@@ -1,4 +1,4 @@
-import React from "react";
+/* eslint-disable no-irregular-whitespace */
 import Logo from "../../../public/footer_logo.png";
 import InstagramIcon from "../../../public/instagram.png";
 import WhatsappIcon from "../../../public/whatsapp.png";

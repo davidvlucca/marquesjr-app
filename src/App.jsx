@@ -1,4 +1,3 @@
-import React from "react";
 import CarouselComponent from "./Components/Carousel";
 import About from "./Components/About";
 import TeamSlider from "./Components/Team";

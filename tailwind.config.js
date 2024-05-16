@@ -1,8 +1,9 @@
 /** @type {import('tailwindcss').Config} */
-const { nextui } = require("@nextui-org/react");
-const withMT = require("@material-tailwind/react/utils/withMT");
+import { nextui } from "@nextui-org/react";
+// eslint-disable-next-line no-undef
+import withMT from "@material-tailwind/react/utils/withMT";
 
-module.exports = withMT({
+export default withMT({
   content: [
     "node_modules/flowbite-react/lib/esm/**/*.js",
     "./index.html",
