@@ -7,10 +7,14 @@ function FooterComponent() {
   return (
     <div className="h-auto bg-footerBackground bg-cover font-roundkey">
       <div className="flex flex-col items-center justify-center px-10 pt-10 text-center font-roundkey">
-        <img src={Logo} alt="Logo" className="mS:w-44 mM:w-44 h-auto mL:w-44 xs:w-52 md:w-52 lg:w-48 xl:w-52 2xl:w-52" />
+        <img
+          src={Logo}
+          alt="Logo"
+          className="h-auto md:w-52 lg:w-48 xl:w-52 2xl:w-52 xs:w-52 mL:w-44 mM:w-44 mS:w-44"
+        />
         <div className=" flex gap-x-5 p-5">
           <a
-            href="https://www.instagram.com/marques.jr_barbershop/"
+            href="https://www.instagram.com/marquesjr.barbershop/"
             target="_blank"
             rel="noopener noreferrer"
             className="hover:opacity-80"
