@@ -5,7 +5,6 @@ import Banner2 from "../../../public/banner_2.png";
 import Logo from "../../../public/logo.png";
 import { VisuallyHidden } from "@nextui-org/react";
 import { useTranslation } from "react-i18next";
-import "../../styles.css";
 
 function CarouselComponent() {
   const [selectedEN, setSelectedEN] = useState(false);
