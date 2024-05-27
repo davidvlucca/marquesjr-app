@@ -20,10 +20,6 @@ This project is a website for Marques Jr, a barber shop located in Cascais, Port
 - Map Component: Display the location of the barber shop on a map.
 - Footer Component: Display contact information and social media links in the footer.
 
-## Demo
-
-[Add your demo video here]
-
 ## Contributing
 
 Contributions to this project are welcome. To contribute, follow these steps:
