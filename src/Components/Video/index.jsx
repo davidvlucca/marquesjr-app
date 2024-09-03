@@ -1,7 +1,7 @@
-import React, { useState, useRef } from "react";
 // @ts-ignore
-import { PlayIcon, PauseIcon } from "@heroicons/react/solid";
-import videoSrc from "../../../public/video_marquesjr.mp4"; // Import the video file
+import { useState, useRef } from "react";
+import { PlayIcon } from "@heroicons/react/solid";
+import videoSrc from "/video_marquesjr.mp4"; // Import the video file
 
 const VideoPlayer = () => {
   const [isPlaying, setIsPlaying] = useState(false);
@@ -18,7 +18,7 @@ const VideoPlayer = () => {
   };
 
   return (
-    <div className="font-roundkey relative">
+    <div className="relative font-roundkey">
       <video
         ref={videoRef}
         src={videoSrc}

@@ -57,7 +57,7 @@ function Services() {
           onClick={() =>
             window.open("https://barbeariamarquesjr.buk.pt/", "_blank")
           }
-          className="lg:text-md lg:text-md bg-[#293E3B] px-4 py-2 font-bold uppercase text-white outline-brown-500 transition-colors duration-300 hover:bg-brown-600 hover:text-white sm:text-sm md:py-4 md:px-6 md:text-2xl  lg:px-5 lg:py-3 xl:px-6 xl:py-3 xl:text-xl 2xl:px-6 2xl:py-3 2xl:text-2xl xs:px-7 xs:py-4 xs:text-2xl mS:px-5 mS:py-4 mS:text-xl"
+          className="lg:text-md lg:text-md bg-[#293E3B] px-4 py-2 font-bold uppercase text-white outline-brown-500 transition-colors duration-300 hover:bg-brown-600 hover:text-white sm:text-sm md:px-6 md:py-4 md:text-2xl  lg:px-5 lg:py-3 xl:px-6 xl:py-3 xl:text-xl 2xl:px-6 2xl:py-3 2xl:text-2xl xs:px-7 xs:py-4 xs:text-2xl mS:px-5 mS:py-4 mS:text-xl"
         >
           {t("services.btn")}
         </button>

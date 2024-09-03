@@ -1,7 +1,7 @@
 /* eslint-disable no-irregular-whitespace */
-import Logo from "../../../public/footer_logo.png";
-import InstagramIcon from "../../../public/instagram.png";
-import WhatsappIcon from "../../../public/whatsapp.png";
+import Logo from "/footer_logo.png";
+import InstagramIcon from "/instagram.png";
+import WhatsappIcon from "/whatsapp.png";
 
 function FooterComponent() {
   return (

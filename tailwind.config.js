@@ -33,10 +33,10 @@ export default withMT({
         mS: { min: "320px", max: "374px" }, // mobile S
       },
       backgroundImage: {
-        aboutLogo: "url('/public/about_logo.png')",
-        bookBackground: "url('/public/bookonline.png')",
-        mapBackground: "url('/public/map_placeholder.png')",
-        footerBackground: "url('/public/footerbg.png')",
+        aboutLogo: "url('about_logo.png')",
+        bookBackground: "url('bookonline.png')",
+        mapBackground: "url('map_placeholder.png')",
+        footerBackground: "url('footerbg.png')",
       },
       colors: {
         brown: {

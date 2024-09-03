@@ -1,8 +1,8 @@
 import { useState } from "react";
 import { Carousel } from "@material-tailwind/react";
-import Banner from "../../../public/banner.png";
-import Banner2 from "../../../public/banner_2.png";
-import Logo from "../../../public/logo.png";
+import Banner from "/banner.png";
+import Banner2 from "/banner_2.png";
+import Logo from "/logo.png";
 import { VisuallyHidden } from "@nextui-org/react";
 import { useTranslation } from "react-i18next";
 
