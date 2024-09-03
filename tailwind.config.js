@@ -34,9 +34,9 @@ export default withMT({
       },
       backgroundImage: {
         aboutLogo: "url('about_logo.png')",
-        bookBackground: "url('bookonline.png')",
-        mapBackground: "url('map_placeholder.png')",
-        footerBackground: "url('footerbg.png')",
+        bookBackground: "url('../bookonline.png')",
+        mapBackground: "url('../map_placeholder.png')",
+        footerBackground: "url('../footerbg.png')",
       },
       colors: {
         brown: {
